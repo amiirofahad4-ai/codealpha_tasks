@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://gvqlrcouyxqxvjlkmlua.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_KEY": "sb_publishable_RYO_eqZ0D0TQnt4Apf8hkA_PhK0F0yV"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://gvqlrcouyxqxvjlkmlua.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_KEY": "sb_publishable_RYO_eqZ0D0TQnt4Apf8hkA_PhK0F0yV"
+      }
+    }
+  }
+}

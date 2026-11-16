@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "FlashMind",
+    "slug": "flashmind",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codealpha.flashmind"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6C3CE9",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.codealpha.flashmind"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font"
+    ],
+    "scheme": "flashmind"
+  }
+}
